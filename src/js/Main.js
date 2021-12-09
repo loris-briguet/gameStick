@@ -5,6 +5,7 @@ import { ElementIsLoading } from "./Utils";
 import PARAMS from "./PARAMS";
 import Stats from "stats.js";
 
+// For Loris Briguet
 const stats = new Stats();
 
 const Main = () => {
