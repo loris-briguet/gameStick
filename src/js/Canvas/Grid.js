@@ -75,6 +75,7 @@ class Grid {
     for (let x = this.space; x <= this.w - this.space; x += this.space) {
       for (let y = this.space; y <= this.h - this.space; y += this.space) {
         this.ctx.beginPath();
+        //draw grid
         // this.ctx.arc(x, y, 20, 0, 2 * Math.PI);
         this.ctx.fill();
         this.ctx.fillStyle = "#000";
